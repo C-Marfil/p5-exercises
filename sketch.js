@@ -2,7 +2,7 @@ let t;
 let increment = 0.001; 
 let starX = 0;
 let starY = 0;
-let starSize = 6;
+let starSize = 7;
 let starSpeed = 0;
 
 function setup() {
@@ -54,6 +54,7 @@ function draw() {
     circle(random(width), random(height), random(200));
 
   }
+
   function makeCircle(xPos, yPos, circleSize) { 
     stroke(255);
     strokeWeight(22);
