@@ -11,7 +11,7 @@ function setup() {
   strokeWeight(2);
   stroke(255);
   noFill();
-  t = 0;
+  t = 1;
 }
 
 function draw() {
