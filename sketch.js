@@ -88,9 +88,11 @@ const fields = () => {
 const backgroundFields = () => {
   noStroke();
   fill(0, 30, 0);
+  push()
   ellipse(width / 8.5, height / 2 + 350, 800, 400);
   ellipse(width / 2, height / 2 + 280, 800, 400);
   ellipse(width / 2 + 500, height / 2 + 280, 800, 400);
+  pop()
 };
 
 const city = () => {
