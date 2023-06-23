@@ -79,10 +79,12 @@ const windows = (rectX, rectY, windowSize, shade, color) => {
 const fields = () => {
   noStroke();
   fill(0, 50, 0);
+  push()
   ellipse(width / 8, height, 800, 300);
   ellipse(width / 2, height, 600, 400);
   ellipse(width, height, 1100, 400);
   ellipse(width / 3, height, 1100, 400);
+  pop();
 };
 
 const backgroundFields = () => {
