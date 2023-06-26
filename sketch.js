@@ -166,3 +166,7 @@ function draw() {
   city();
   fields();
 }
+
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// };
